@@ -10,7 +10,7 @@ public class SpringContainerApp {
 
 	public static void main(String[] args) {
 //		testBeanFactory();
-		testBeanFactory2();
+		testBeanFactory2();	//	component-scan 방식 등록
 //		testApplicationContext();
 	}
 
@@ -84,3 +84,9 @@ public class SpringContainerApp {
 		System.out.println("by Component Scan:" + user);
 	}
 }
+
+
+
+
+
+
